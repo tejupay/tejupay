@@ -1,0 +1,14 @@
+{
+  "name": "business-erp-desktop",
+  "version": "1.0.0",
+  "description": "Business ERP AI Desktop Application",
+  "main": "electron/main.js",
+  "scripts": {
+    "start": "electron .",
+    "frontend:build": "npm --prefix frontend run build",
+    "app": "electron ."
+  },
+  "devDependencies": {
+    "electron": "^29.1.0"
+  }
+}
